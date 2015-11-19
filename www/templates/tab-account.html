@@ -1,0 +1,21 @@
+<ion-view view-title="Account">
+    <ion-content class="padding">
+        <div class="list card">
+            <div class="item item-divider">Send</div>
+            <div class="item item-body">
+                <ion-radio ng-model="settings.send" ng-value="1" name="send">Contacts</ion-radio>
+                <ion-radio ng-model="settings.send" ng-value="2" name="send">Contacts de contacts</ion-radio>
+                <ion-radio ng-model="settings.send" ng-value="3" name="send">Contacts de contacts de contacts</ion-radio>
+            </div>
+        </div>
+       
+        <div class="list card">
+            <div class="item item-divider">Recieve</div>
+            <div class="item item-body">
+                <ion-radio ng-model="settings.recieve" ng-value="1" name="recieve">Contacts</ion-radio>
+                <ion-radio ng-model="settings.recieve" ng-value="2" name="recieve">Contacts de contacts</ion-radio>
+                <ion-radio ng-model="settings.recieve" ng-value="3" name="recieve">Contacts de contacts de contacts</ion-radio>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
